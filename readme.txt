@@ -12,7 +12,8 @@ python .\manage.py runserver
 
 
 changed_files
-mkdir urls.py  //in api
+mkdir urls.py  //in api   tutorial1
+mkdir serializers.py // in api tutorial2
 
 
 
