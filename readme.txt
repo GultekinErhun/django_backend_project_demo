@@ -6,12 +6,14 @@ cd melon
 python -m django startapp api
 
 
-mkdir urls.py
+python .\manage.py makemigrations  #we need it to let database to keep our track for what we had done 
+python .\manage.py migrate
+python .\manage.py runserver
 
 
 changed_files
+mkdir urls.py  //in api
 
 
 
 
-book_suggest_system içinde "python .\manage.py makemigrations" ve "python .\manage.py migrate"
