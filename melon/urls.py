@@ -18,5 +18,7 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",include("api.urls") ),                     #blank means for any we get any url 
+    path("api",include("api.urls") ),                     #blank means for any we get any url 
+    path("",include("frontend.urls") ),                     
+
 ]
