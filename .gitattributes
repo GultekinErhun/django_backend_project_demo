@@ -1,0 +1,12 @@
+# Tüm metin dosyalarında CRLF kullan
+*.txt text eol=crlf
+
+# Kod dosyalarında LF kullan
+*.sh text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+
+# İkili dosyalarda satır sonu dönüşümü yapma
+*.jpg binary
+*.png binary
+*.exe binary
